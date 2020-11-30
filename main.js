@@ -13,8 +13,12 @@ form.addEventListener('submit', function (event) {
 function getMovies () {
   fetch (url) 
     .then (res => res.json())
-    .then (data => console.log(data))
+    .then (data => {
+    for (let movie of data){
+      console.log(movie.title)
+   }})
     // add call to function render
+    // renderMovie
 }
 
 function createMovie () {
