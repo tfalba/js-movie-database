@@ -32,8 +32,13 @@ function createMovie () {
 }
 
 function renderMovie () {
-  movieDisplay = document.createElement('div')
+ const movieMain = document.createElement('div')
+ movieDisplay.appendChild(movieMain)
+ movieMain.innerHTML = getInput
+ console.log(movieMain)
 }
+
+
 
 
 
