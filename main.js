@@ -2,8 +2,11 @@ const url = 'http://localhost:3000/movies'
 
 const submitButton = document.querySelector('#submit-button')
 const form = document.querySelector('#movie-form')
-submitButton.addEventListener('submit', function (event) {
+const movieInput = document.querySelector('#movie-input')
+const movieDisplay = document.querySelector('#display')
+form.addEventListener('submit', function (event) {
   event.preventDefault()
+  
   createMovie()
 })
 //  funciton to get movies
@@ -28,7 +31,9 @@ function createMovie () {
   })
 }
 
-
+function renderMovie () {
+  movieDisplay = document.createElement('div')
+}
 
 
 
