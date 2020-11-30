@@ -12,8 +12,6 @@ CSS is not important in this project, but you can add minimal styling as needed.
 
 **You won't be able to do all of this** so make some decisions about where to start and what to do later.
 
-The repo we will use and commit to is here: [https://github.com/momentum-team-6/js-team-todos](https://github.com/momentum-team-6/js-team-todos)
-
 ## Product Roadmap and Requirements
 
 - Clone the repo and run `npm install`.
@@ -96,7 +94,7 @@ At the end of each shift, add, commit, and push all the code that has been writt
 - scout: Dan
 - contributors: Tracy, Logan
 
-##### shift 5
+#### shift 5
 
 - driver: Dan
 - navigator: Jesse
