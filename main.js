@@ -11,11 +11,13 @@ form.addEventListener('submit', function (event) {
 })
 //  funciton to get movies
 function getMovies () {
+  movieDisplay.innerHTML = ''
   fetch (url) 
     .then (res => res.json())
     .then (data => {
     for (let movie of data){
       console.log(movie.title)
+      renderMovie (movie.title)
    }})
     // add call to function render
     // renderMovie
@@ -33,9 +35,12 @@ function createMovie () {
       watched: 'watched'
     })
   })
+  getMovies()
 }
 
-function renderMovie () {
+getMovies()
+
+function renderMovie (getInput) {
  const movieMain = document.createElement('div')
  movieDisplay.appendChild(movieMain)
  movieMain.innerHTML = getInput
