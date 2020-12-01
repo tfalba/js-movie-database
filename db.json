@@ -95,6 +95,16 @@
       "title": "Jaws 15",
       "watched": "watched",
       "id": 19
+    },
+    {
+      "title": "Logan",
+      "watched": "watched",
+      "id": 20
+    },
+    {
+      "title": "Elf",
+      "watched": "watched",
+      "id": 21
     }
   ]
 }
