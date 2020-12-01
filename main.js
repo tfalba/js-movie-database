@@ -36,6 +36,16 @@ function createMovie () {
   movieInput.value = ''
 }
 
+function updateMovie(id) {
+    fetch (`${url}/${id}`, {
+        method: 'PATCH',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify( {
+          watched: true
+        })
+    })
+}
+
 getMovies()
 
 function renderMovie (movie) {

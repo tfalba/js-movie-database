@@ -18,7 +18,7 @@
     },
     {
       "title": "Jaws",
-      "watched": "watched",
+      "watched": true,
       "id": 4
     },
     {
