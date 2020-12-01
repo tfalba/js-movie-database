@@ -16,7 +16,7 @@ function getMovies () {
     .then (res => res.json())
     .then (data => {
     for (let movie of data){
-      renderMovie (movie.title)
+      renderMovie (movie)
    }})
 }
 
@@ -38,12 +38,12 @@ function createMovie () {
 
 getMovies()
 
-function renderMovie (getInput) {
+function renderMovie (movie) {
  const movieMain = document.createElement('div')
  movieDisplay.appendChild(movieMain) 
  const movieTitle = document.createElement('div')
  movieMain.appendChild(movieTitle)
- movieTitle.innerHTML = getInput
+ movieTitle.innerHTML = movie.title
  // Write an outer div to be container for housing movieMain
  // and watch box
  // Append both of those to parent movieDisplay
@@ -52,7 +52,7 @@ function renderMovie (getInput) {
  //movieMain.appendChild(checkWatched)
  const watchButton = document.createElement('button')
  watchButton.classList.add('watch-button')
- movieDisplay.appendChild(watchButton)
+ movieMain.appendChild(watchButton)
  watchButton.innerHTML = 'watched'
 
 
@@ -61,6 +61,12 @@ function renderMovie (getInput) {
 
 movieDisplay.addEventListener('click', function (event) {
   event.preventDefault()
+  if (event.target.classList.contains('watch-button')) {
+    // debugger
+    (console.log(event.target))
+
+  }
+
 }) 
 
 
