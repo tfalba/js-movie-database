@@ -19,6 +19,7 @@ function getMovies () {
       console.log(movie.title)
       renderMovie (movie.title)
    }})
+   
     // add call to function render
     // renderMovie
 }
@@ -36,6 +37,7 @@ function createMovie () {
     })
   })
   getMovies()
+  movieInput.value = ''
 }
 
 getMovies()
