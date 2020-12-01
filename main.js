@@ -29,7 +29,7 @@ function createMovie () {
     body: JSON.stringify( {
       title: getInput,
       //    put the innerText here
-      watched: 'watched'
+      watched: false
     })
   })
   getMovies()
@@ -51,10 +51,16 @@ function renderMovie (getInput) {
  //checkWatched.type='checkbox'
  //movieMain.appendChild(checkWatched)
  const watchButton = document.createElement('button')
+ watchButton.classList.add('watch-button')
  movieDisplay.appendChild(watchButton)
  watchButton.innerHTML = 'watched'
 
+
+
 }
 
+movieDisplay.addEventListener('click', function (event) {
+  event.preventDefault()
+}) 
 
 
