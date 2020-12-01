@@ -47,10 +47,12 @@ function renderMovie (getInput) {
  // Write an outer div to be container for housing movieMain
  // and watch box
  // Append both of those to parent movieDisplay
- const checkWatched = document.createElement('input')
- checkWatched.type='checkbox'
- movieMain.appendChild(checkWatched)
- 
+ //const checkWatched = document.createElement('input')
+ //checkWatched.type='checkbox'
+ //movieMain.appendChild(checkWatched)
+ const watchButton = document.createElement('button')
+ movieDisplay.appendChild(watchButton)
+ watchButton.innerHTML = 'watched'
 
 }
 
