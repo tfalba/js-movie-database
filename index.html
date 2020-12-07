@@ -5,19 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="moment.min.js"></script>
   <script src="main.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/picnic/6.5.3/picnic.min.css" />
   <link rel="stylesheet" href="style.css" />
   <title>The Watch List</title>
 </head>
 <body>
-  <form id="movie-form">
-    <input type='text' placeholder='Enter Movie' id='movie-input'></input>
-   <!-- <input type='radio'></input> -->
-    <button id="submit-button" type='Submit'>Submit</button> 
-  </form>
+  <div class='banner'>
+    <div class='top-section'>
+      <p class='heading'>My Movie Tracker</p>
+    </div>
+    <div id='display-holder'></div>
+  </div>
+<div class='sub-header-div'>
+  <h2 class='sub-header'>Movies to Watch</h2>
+  <h2 class='sub-header'>Watched Movies</h2>
+</div>
   <section id='display'>
-    
+    <div id='display-a'></div>
+    <div id='display-b'></div>
   </section>
-
+</div>
+<div class='bottom-section'>
+  <p class='search-heading'>Search Movies</p>
+  <form id="movie-form-2">
+    <input class='search' type='text' placeholder='Enter Movie' id='movie-search'></input>
+    <button id="submit-button-2" type='Submit'>Submit</button> 
+  </form>
+  <section id='display-2'></section>
+</div>
 </body>
 </html>

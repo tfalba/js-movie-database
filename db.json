@@ -1,140 +1,193 @@
 {
   "movies": [
     {
-      "id": 1,
-      "title": "Citizen Kane",
+      "title": "Pretty in Pink",
+      "overview": "Andie is an outcast, hanging out either with her older boss, who owns the record store where she works, or her quirky high school classmate Duckie, who has a crush on her. When one of the rich and popular kids at school, Blane, asks Andie out, it seems too good to be true. As Andie starts falling for Blane, she begins to realize that dating someone from a different social sphere is not easy.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/jeFJyzJBufJexpOuywuPp8q2tCJ.jpg",
       "watched": false,
-      "created_at": "Monday, November 30th 2020, 8:19 am"
+      "movie_id": "11522",
+      "created_at": "Mon, Dec 7, 2020 8:32 AM",
+      "id": 83
     },
     {
-      "title": "movie",
-      "watched": "watched",
-      "id": 2
+      "title": "St. Elmo's Fire",
+      "overview": "Seven friends - Alec, Billy, Jules, Kevin, Kirby, Leslie and Wendy - are trying to navigate through life and their friendships following college graduation. Alec, who aspires to political life, has just shown his true colors by changing his allegiance from Democrat to Republican, which freaks out girlfriend Leslie, who he wants to marry. Budding architect Leslie, on the other hand, has an independent streak. She believes she has to make a name for herself to find out who she is before she can truly commit to another person in marriage. But Leslie and Alec have decided to live together. Because Leslie refuses to marry Alec, he believes that justifies certain behavior. Kirby, who wants to become a lawyer and who pays for his schooling by working as a waiter at their local hangout called St. Elmo's Bar, and struggling writer Kevin are currently roommates. They are on opposite extremes of the romance spectrum.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/3H2yXGryVSOsCE7tTgmPhr1BwgU.jpg",
+      "watched": false,
+      "movie_id": "11557",
+      "created_at": "Mon, Dec 7, 2020 8:33 AM",
+      "id": 84
     },
     {
-      "title": "movie",
-      "watched": "watched",
-      "id": 3
+      "title": "Bridget Jones: The Edge of Reason",
+      "overview": "Bridget Jones is becoming uncomfortable in her relationship with Mark Darcy. Apart from discovering that he's a conservative voter, she has to deal with a new boss, a strange contractor and the worst vacation of her life.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/42v82AwTnhaL1JkNcQK8PRAh46P.jpg",
+      "watched": false,
+      "movie_id": "9801",
+      "created_at": "Mon, Dec 7, 2020 8:33 AM",
+      "id": 85
     },
     {
-      "title": "Jaws",
+      "title": "Sixteen Candles",
+      "overview": "A teenage girl deals with her parents forgetting her birthday and a crush on her high school's heartthrob.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/duLMXNN6ZkuBt4edVMIfOI6tx.jpg",
       "watched": true,
-      "id": 4
+      "movie_id": "15144",
+      "created_at": "Mon, Dec 7, 2020 8:33 AM",
+      "id": 87,
+      "modified_at": "Mon, Dec 7, 2020 8:36 AM"
     },
     {
-      "title": "Jaws",
-      "watched": "watched",
-      "id": 5
+      "title": "Vertigo",
+      "overview": "A retired San Francisco detective suffering from acrophobia investigates the strange activities of an old friend's wife, all the while becoming dangerously obsessed with her.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg",
+      "watched": false,
+      "movie_id": "426",
+      "created_at": "Mon, Dec 7, 2020 8:34 AM",
+      "id": 89
     },
     {
-      "title": "portrait of a lady on fire",
-      "watched": "watched",
-      "id": 6
+      "title": "Good Morning, Vietnam",
+      "overview": "Radio funny man Adrian Cronauer is sent to Vietnam to bring a little comedy back into the lives of the soldiers. After setting up shop, Cronauer delights the G.I.s but shocks his superior officer, Sergeant Major Dickerson, with his irreverent take on the war. While Dickerson attempts to censor Cronauer's broadcasts, Cronauer pursues a relationship with a Vietnamese girl named Trinh, who shows him the horrors of war first-hand.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/y4zILnCypdVbiq9pyWrtmygZdWN.jpg",
+      "watched": true,
+      "movie_id": "801",
+      "created_at": "Mon, Dec 7, 2020 8:34 AM",
+      "id": 90,
+      "modified_at": "Mon, Dec 7, 2020 8:34 AM"
     },
     {
-      "title": "portrait of a lady on fire",
-      "watched": "watched",
-      "id": 7
+      "title": "The Da Vinci Code",
+      "overview": "A murder in Paris’ Louvre Museum and cryptic clues in some of Leonardo da Vinci’s most famous paintings lead to the discovery of a religious mystery. For 2,000 years a secret society closely guards information that — should it come to light — could rock the very foundations of Christianity.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/6jexEWBXepwB1ZLpCEllI04Agrb.jpg",
+      "watched": true,
+      "movie_id": "591",
+      "created_at": "Mon, Dec 7, 2020 8:34 AM",
+      "id": 91,
+      "modified_at": "Mon, Dec 7, 2020 8:34 AM"
     },
     {
-      "title": "New movie",
-      "watched": "watched",
-      "id": 8
+      "title": "Amy Schumer: Growing",
+      "overview": "Amy Schumer's live stand-up set performed in Chicago where she jokes about marriage, pregnancy and personal growth.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/cNqnCtWPt9m13xS9hxBRnzb5Hpx.jpg",
+      "watched": true,
+      "movie_id": "581958",
+      "created_at": "Mon, Dec 7, 2020 8:35 AM",
+      "id": 92,
+      "modified_at": "Mon, Dec 7, 2020 1:30 PM"
     },
     {
-      "title": "another movie",
-      "watched": "watched",
-      "id": 9
+      "title": "Amy Schumer: The Leather Special",
+      "overview": "Comic sensation Amy Schumer riffs on sex, dating and the absurdities of fame in a bold and uncensored stand-up set at Denver's Bellco Theater.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/3Efp3j8vqUKyV4iveFCoXKfk2FE.jpg",
+      "watched": true,
+      "movie_id": "444513",
+      "created_at": "Mon, Dec 7, 2020 8:35 AM",
+      "id": 93,
+      "modified_at": "Mon, Dec 7, 2020 8:35 AM"
     },
     {
-      "title": "Jaws 6",
-      "watched": "watched",
-      "id": 10
+      "title": "Titanic",
+      "overview": "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic, 84 years later. A young Rose boards the ship with her mother and fiancé. Meanwhile, Jack Dawson and Fabrizio De Rossi win third-class tickets aboard the ship. Rose tells the whole story from Titanic's departure through to its death—on its first and last voyage—on April 15, 1912.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+      "watched": false,
+      "movie_id": "597",
+      "created_at": "Mon, Dec 7, 2020 8:35 AM",
+      "id": 94
     },
     {
-      "title": "Jaws 7",
-      "watched": "watched",
-      "id": 11
+      "title": "Elizabeth",
+      "overview": "The story of the ascension to the throne and the early reign of Queen Elizabeth the First, the endless attempts by her council to marry her off, the Catholic hatred of her and her romance with Lord Robert Dudley.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/qEk48VLOdibXFVIEzE9ETZUBcCs.jpg",
+      "watched": true,
+      "movie_id": "4518",
+      "created_at": "Mon, Dec 7, 2020 8:35 AM",
+      "id": 95,
+      "modified_at": "Mon, Dec 7, 2020 8:35 AM"
     },
     {
-      "title": "Jaws 8",
-      "watched": "watched",
-      "id": 12
+      "title": "Running on Empty",
+      "overview": "The Popes are a family who haven't been able to use their real identity for years. In the late sixties, the parents set a weapons lab afire in an effort to hinder the government's Vietnam war campaign. Ever since then, the Popes have been on the run with the authorities never far behind.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/47qkFT7CruXUmCVCUg1iKxIoX2h.jpg",
+      "watched": false,
+      "movie_id": "18197",
+      "created_at": "Mon, Dec 7, 2020 8:35 AM",
+      "id": 96
     },
     {
-      "title": "Jaws 9",
-      "watched": "watched",
-      "id": 13
+      "title": "Forgetting Sarah Marshall",
+      "overview": "When Sarah Marshall dumps aspiring musician Peter Bretter for rock star Aldous Snow, Peter's world comes crashing down. His best friend suggests that Peter should get away from everything and to fly off to Hawaii to escape all his problems. After arriving in Hawaii and meeting the beautiful Rachel Jansen, Peter is shocked to see not only Aldous Snow in Hawaii, but also Sarah Marshall.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/j2KXt3gObsAaRj9RKpCp8tiosTk.jpg",
+      "watched": false,
+      "movie_id": "9870",
+      "created_at": "Mon, Dec 7, 2020 8:35 AM",
+      "id": 97,
+      "modified_at": "Mon, Dec 7, 2020 3:34 PM"
     },
     {
-      "title": "Jaws 10",
-      "watched": "watched",
-      "id": 14
+      "title": "Hot Rod",
+      "overview": "For Rod Kimball, performing stunts is a way of life, even though he is rather accident-prone. Poor Rod cannot even get any respect from his stepfather, Frank, who beats him up in weekly sparring matches. When Frank falls ill, Rod devises his most outrageous stunt yet to raise money for Frank's operation -- and then Rod will kick Frank's butt.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/jRkt03dXCVKnbvcQm3ygU1cjg9Y.jpg",
+      "watched": true,
+      "movie_id": "10074",
+      "created_at": "Mon, Dec 7, 2020 8:36 AM",
+      "id": 98,
+      "modified_at": "Mon, Dec 7, 2020 8:36 AM"
     },
     {
-      "title": "Jaws 11",
-      "watched": "watched",
-      "id": 15
+      "title": "Mission: Impossible",
+      "overview": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no explanation, discovers that a mole has penetrated the CIA, he's surprised to learn that he's the No. 1 suspect. To clear his name, Hunt now must ferret out the real double agent and, in the process, even the score.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/lirMXnE7NoVLDr3qeqf48fR1mk4.jpg",
+      "watched": false,
+      "movie_id": "954",
+      "created_at": "Mon, Dec 7, 2020 1:23 PM",
+      "id": 100
     },
     {
-      "title": "Jaws 12",
-      "watched": "watched",
-      "id": 16
+      "title": "A Time to Kill",
+      "overview": "A young lawyer defends a black man accused of murdering two white men who raped his 10-year-old daughter, sparking a rebirth of the KKK.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/apUSR9WE7lMATBGYhzZ8RnPDYsK.jpg",
+      "watched": false,
+      "movie_id": "1645",
+      "created_at": "Mon, Dec 7, 2020 1:28 PM",
+      "id": 101
     },
     {
-      "title": "Jaws 13",
-      "watched": "watched",
-      "id": 17
+      "title": "Moulin Rouge!",
+      "overview": "A celebration of love and creative inspiration takes place in the infamous, gaudy and glamorous Parisian nightclub, at the cusp of the 20th century. A young poet, who is plunged into the heady world of Moulin Rouge, begins a passionate affair with the club's most notorious and beautiful star.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/xhuQz2yKPlWvMvvnf2u9RVkAQx6.jpg",
+      "watched": false,
+      "movie_id": "824",
+      "created_at": "Mon, Dec 7, 2020 1:28 PM",
+      "id": 102
     },
     {
-      "title": "Jaws 14",
-      "watched": "watched",
-      "id": 18
+      "title": "Requiem for a Dream",
+      "overview": "The hopes and dreams of four ambitious people are shattered when their drug addictions begin spiraling out of control. A look into addiction and how it overcomes the mind and body.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/nOd6vjEmzCT0k4VYqsA2hwyi87C.jpg",
+      "watched": false,
+      "movie_id": "641",
+      "created_at": "Mon, Dec 7, 2020 1:29 PM",
+      "id": 103
     },
     {
-      "title": "Jaws 15",
-      "watched": "watched",
-      "id": 19
+      "title": "What Ever Happened to Baby Jane?",
+      "overview": "Two aging film actresses live as virtual recluses in an old Hollywood mansion. Jane Hudson, a successful child star, cares for her crippled sister Blanche, whose career in later years eclipsed that of Jane. Now the two live together, their relationship affected by simmering subconscious thoughts of mutual envy, hate and revenge.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/iL3NPfhVvZNW4HPBToRuk3DlXdV.jpg",
+      "watched": true,
+      "movie_id": "10242",
+      "created_at": "Mon, Dec 7, 2020 1:31 PM",
+      "id": 104,
+      "modified_at": "Mon, Dec 7, 2020 3:34 PM"
     },
     {
-      "title": "Logan",
-      "watched": "watched",
-      "id": 20
-    },
-    {
-      "title": "Elf",
-      "watched": "watched",
-      "id": 21
-    },
-    {
-      "title": "elf 2",
-      "watched": "watched",
-      "id": 22
-    },
-    {
-      "title": "elf 3",
-      "watched": "watched",
-      "id": 23
-    },
-    {
-      "title": "",
-      "watched": "watched",
-      "id": 24
-    },
-    {
-      "title": "movie",
-      "watched": "watched",
-      "id": 25
-    },
-    {
-      "title": "elf 4",
-      "watched": "watched",
-      "id": 26
-    },
-    {
-      "title": "Home Alone",
-      "watched": "watched",
-      "id": 27
+      "title": "Texas Chainsaw 3D",
+      "overview": "A young woman learns that she has inherited a Texas estate from her deceased grandmother. After embarking on a road trip with friends to uncover her roots, she finds she is the sole owner of a lavish, isolated Victorian mansion. But her newfound wealth comes at a price as she stumbles upon a horror that awaits her in the mansion’s dank cellars.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/dwIQ7WDCSiIcNdbferTcU7uI0KV.jpg",
+      "watched": false,
+      "movie_id": "76617",
+      "created_at": "Mon, Dec 7, 2020 3:46 PM",
+      "id": 105
     }
   ]
 }
