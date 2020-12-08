@@ -5,9 +5,10 @@ body {
   font-family: futura;
   margin: 0 auto;
   background-color: #0074d9d9;
-  background-color: #121213f2;
+  background-color: #121213fa;
   margin-left: 80px;
   margin-right: 80px;
+  margin-top: 50px;
   /* background-image: url("pexels-pixabay-33129.jpg"); */
 }
 .top-section {
@@ -21,7 +22,7 @@ body {
   font-size: 40px;
   padding-left: 20px;
   color: #0074d9;
-  font-weight: 800;
+  font-weight: 400;
   /* background-color: white; */
 }
 .banner {
@@ -32,10 +33,10 @@ body {
   /* margin-right: 80px; */
   margin-top: 0px;
   margin-bottom: 13px;
-  font-size: 50px;
+  font-size: 60px;
 }
 .banner-image {
-  width: 350px;
+  width: 380px;
   border-radius: 180px;
   margin-left: 50px;
 
@@ -48,7 +49,7 @@ body {
   color: #0074d9;
   font-weight: 800;
   margin: 0;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 #display-holder {
   display: flex;
@@ -70,8 +71,10 @@ body {
   margin-top: 20px;
 }
 .movie-overview {
-  font-size: 14px;
+  font-size: 16px;
   font-family: arial;
+  color: #ffffffb8;
+  padding: 2px;
 }
 .movie-title {
   font-size: 14px;
@@ -105,7 +108,7 @@ input {
 #display-2 {
   display: flex;
   font-size: 20px;
-  justify-content: space-around;
+  justify-content: flex-start;
   margin-top: 20px;
   margin-bottom: 150px;
   flex-wrap: wrap;
@@ -116,17 +119,26 @@ input {
   margin: 5px 0 15px 0;
 } */
 .search-card {
-  margin: 5px 3px 15px 3px;
+  /* margin: 5px 3px 15px 3px;
   width: 250px;
   border: 4px solid #0373d9;
   border-radius: 10px;
   background-color: rgba(235, 231, 231, 0.933);
   height: 350px;
+  overflow: scroll; */
+  margin: 5px 7px 15px 7px;
+  width: 300px;
+  border: 4px solid #0373d9;
+  border-radius: 10px;
+  background-color: #14181c;
+  height: 514px;
   overflow: scroll;
+  color: #d2cfcf;
+
   /* color: white; */
 }
 .search-card img {
-  width: 115px;
+  width: 180px;
 }
 #display, .sub-header-div {
   display: flex;
@@ -139,7 +151,7 @@ input {
   margin-top: 40px;
 } */
 
-#display-a, #display-b, .sub-header {
+.display-a, .display-b, .sub-header {
   border: 4px solid #0373d9;
   border-radius: 10px;
   padding: 4px;
@@ -151,11 +163,12 @@ input {
   align-content: flex-start;
   background-color: #efececf2;
   background-color: #0277bd;
+  background-color: #0277bd40;
 }
-#display-b {
+.display-b {
   border-radius: 10px 0 10px 10px;
 }
-#display-a {
+.display-a {
   border-radius: 0 10px 10px 10px;
 }
 .sub-header {
@@ -183,7 +196,7 @@ input {
   opacity: .8;
 }
 img {
-  width: 145px;
+  width: 160px;
 }
 .poster-top {
   width: 80px;
@@ -196,11 +209,17 @@ img {
 .fas .fa {
   font-size: 18px;
 }
+.close-me {
+  margin: 0;
+  color: white;
+  color: #0373d9;
+  font-size: 25px;
+}
 
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
+  position: absolute; /* Stay in place */
   /* position: absolute; */
   z-index: 1; /* Sit on top */
   padding-top: 100px; /* Location of the box */
@@ -208,17 +227,17 @@ img {
   left: 0;
   top: 0;
   left: 1550px;
-  top: 30px;
+  top: 105px;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   width: 50%;
-  width: 510px;
+  width: 650px;
   height: 10%;
-  height: 350px;
+  height: 300px;
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.466); /* Black w/ opacity */
-  background-color: rgb(3 115 217 / 81%);
+  background-color: rgb(3 115 217 / 21%);
   color: white;
   text-align: left;
   border-radius: 8px;
@@ -248,9 +267,9 @@ img {
   cursor: pointer;
 }
 
-.hideme {
+.hide-me {
   display:none;
 }
 .dim-me {
-  opacity: .5;
+  opacity: .3;
 }

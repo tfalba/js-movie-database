@@ -1,15 +1,6 @@
 {
   "movies": [
     {
-      "title": "Pretty in Pink",
-      "overview": "Andie is an outcast, hanging out either with her older boss, who owns the record store where she works, or her quirky high school classmate Duckie, who has a crush on her. When one of the rich and popular kids at school, Blane, asks Andie out, it seems too good to be true. As Andie starts falling for Blane, she begins to realize that dating someone from a different social sphere is not easy.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/jeFJyzJBufJexpOuywuPp8q2tCJ.jpg",
-      "watched": false,
-      "movie_id": "11522",
-      "created_at": "Mon, Dec 7, 2020 8:32 AM",
-      "id": 83
-    },
-    {
       "title": "St. Elmo's Fire",
       "overview": "Seven friends - Alec, Billy, Jules, Kevin, Kirby, Leslie and Wendy - are trying to navigate through life and their friendships following college graduation. Alec, who aspires to political life, has just shown his true colors by changing his allegiance from Democrat to Republican, which freaks out girlfriend Leslie, who he wants to marry. Budding architect Leslie, on the other hand, has an independent streak. She believes she has to make a name for herself to find out who she is before she can truly commit to another person in marriage. But Leslie and Alec have decided to live together. Because Leslie refuses to marry Alec, he believes that justifies certain behavior. Kirby, who wants to become a lawyer and who pays for his schooling by working as a waiter at their local hangout called St. Elmo's Bar, and struggling writer Kevin are currently roommates. They are on opposite extremes of the romance spectrum.",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/3H2yXGryVSOsCE7tTgmPhr1BwgU.jpg",
@@ -27,16 +18,6 @@
       "created_at": "Mon, Dec 7, 2020 8:33 AM",
       "id": 87,
       "modified_at": "Mon, Dec 7, 2020 8:36 AM"
-    },
-    {
-      "title": "Good Morning, Vietnam",
-      "overview": "Radio funny man Adrian Cronauer is sent to Vietnam to bring a little comedy back into the lives of the soldiers. After setting up shop, Cronauer delights the G.I.s but shocks his superior officer, Sergeant Major Dickerson, with his irreverent take on the war. While Dickerson attempts to censor Cronauer's broadcasts, Cronauer pursues a relationship with a Vietnamese girl named Trinh, who shows him the horrors of war first-hand.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/y4zILnCypdVbiq9pyWrtmygZdWN.jpg",
-      "watched": true,
-      "movie_id": "801",
-      "created_at": "Mon, Dec 7, 2020 8:34 AM",
-      "id": 90,
-      "modified_at": "Mon, Dec 7, 2020 8:34 AM"
     },
     {
       "title": "The Da Vinci Code",
@@ -59,16 +40,6 @@
       "modified_at": "Mon, Dec 7, 2020 1:30 PM"
     },
     {
-      "title": "Amy Schumer: The Leather Special",
-      "overview": "Comic sensation Amy Schumer riffs on sex, dating and the absurdities of fame in a bold and uncensored stand-up set at Denver's Bellco Theater.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/3Efp3j8vqUKyV4iveFCoXKfk2FE.jpg",
-      "watched": true,
-      "movie_id": "444513",
-      "created_at": "Mon, Dec 7, 2020 8:35 AM",
-      "id": 93,
-      "modified_at": "Mon, Dec 7, 2020 8:35 AM"
-    },
-    {
       "title": "Titanic",
       "overview": "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic, 84 years later. A young Rose boards the ship with her mother and fiancé. Meanwhile, Jack Dawson and Fabrizio De Rossi win third-class tickets aboard the ship. Rose tells the whole story from Titanic's departure through to its death—on its first and last voyage—on April 15, 1912.",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
@@ -77,36 +48,6 @@
       "created_at": "Mon, Dec 7, 2020 8:35 AM",
       "id": 94,
       "modified_at": "Mon, Dec 7, 2020 6:56 PM"
-    },
-    {
-      "title": "Elizabeth",
-      "overview": "The story of the ascension to the throne and the early reign of Queen Elizabeth the First, the endless attempts by her council to marry her off, the Catholic hatred of her and her romance with Lord Robert Dudley.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/qEk48VLOdibXFVIEzE9ETZUBcCs.jpg",
-      "watched": true,
-      "movie_id": "4518",
-      "created_at": "Mon, Dec 7, 2020 8:35 AM",
-      "id": 95,
-      "modified_at": "Mon, Dec 7, 2020 8:35 AM"
-    },
-    {
-      "title": "Running on Empty",
-      "overview": "The Popes are a family who haven't been able to use their real identity for years. In the late sixties, the parents set a weapons lab afire in an effort to hinder the government's Vietnam war campaign. Ever since then, the Popes have been on the run with the authorities never far behind.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/47qkFT7CruXUmCVCUg1iKxIoX2h.jpg",
-      "watched": true,
-      "movie_id": "18197",
-      "created_at": "Mon, Dec 7, 2020 8:35 AM",
-      "id": 96,
-      "modified_at": "Mon, Dec 7, 2020 10:42 PM"
-    },
-    {
-      "title": "Forgetting Sarah Marshall",
-      "overview": "When Sarah Marshall dumps aspiring musician Peter Bretter for rock star Aldous Snow, Peter's world comes crashing down. His best friend suggests that Peter should get away from everything and to fly off to Hawaii to escape all his problems. After arriving in Hawaii and meeting the beautiful Rachel Jansen, Peter is shocked to see not only Aldous Snow in Hawaii, but also Sarah Marshall.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/j2KXt3gObsAaRj9RKpCp8tiosTk.jpg",
-      "watched": true,
-      "movie_id": "9870",
-      "created_at": "Mon, Dec 7, 2020 8:35 AM",
-      "id": 97,
-      "modified_at": "Mon, Dec 7, 2020 6:35 PM"
     },
     {
       "title": "Mission: Impossible",
@@ -136,15 +77,6 @@
       "created_at": "Mon, Dec 7, 2020 1:28 PM",
       "id": 102,
       "modified_at": "Tue, Dec 8, 2020 8:26 AM"
-    },
-    {
-      "title": "Requiem for a Dream",
-      "overview": "The hopes and dreams of four ambitious people are shattered when their drug addictions begin spiraling out of control. A look into addiction and how it overcomes the mind and body.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/nOd6vjEmzCT0k4VYqsA2hwyi87C.jpg",
-      "watched": false,
-      "movie_id": "641",
-      "created_at": "Mon, Dec 7, 2020 1:29 PM",
-      "id": 103
     },
     {
       "title": "Hamilton",
@@ -195,22 +127,14 @@
       "modified_at": "Tue, Dec 8, 2020 11:40 AM"
     },
     {
-      "title": "Troy",
-      "overview": "In year 1250 B.C. during the late Bronze age, two emerging nations begin to clash. Paris, the Trojan prince, convinces Helen, Queen of Sparta, to leave her husband Menelaus, and sail with him back to Troy. After Menelaus finds out that his wife was taken by the Trojans, he asks his brother Agamemnom to help him get her back. Agamemnon sees this as an opportunity for power. So they set off with 1,000 ships holding 50,000 Greeks to Troy. With the help of Achilles, the Greeks are able to fight the never before defeated Trojans.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/kWj4RJzZeJGeyGA3DVGQiNkUjkt.jpg",
-      "watched": false,
-      "movie_id": "652",
-      "created_at": "Tue, Dec 8, 2020 8:32 AM",
-      "id": 113
-    },
-    {
       "title": "Running on Empty",
       "overview": "The Popes are a family who haven't been able to use their real identity for years. In the late sixties, the parents set a weapons lab afire in an effort to hinder the government's Vietnam war campaign. Ever since then, the Popes have been on the run with the authorities never far behind.",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/47qkFT7CruXUmCVCUg1iKxIoX2h.jpg",
-      "watched": false,
+      "watched": true,
       "movie_id": "18197",
       "created_at": "Tue, Dec 8, 2020 9:13 AM",
-      "id": 114
+      "id": 114,
+      "modified_at": "Tue, Dec 8, 2020 6:55 PM"
     },
     {
       "title": "Angels & Demons",
@@ -229,15 +153,6 @@
       "movie_id": "12133",
       "created_at": "Tue, Dec 8, 2020 9:14 AM",
       "id": 116
-    },
-    {
-      "title": "The Fugitive",
-      "overview": "Wrongfully convicted of murdering his wife and sentenced to death, Richard Kimble escapes from the law in an attempt to find her killer and clear his name. Pursuing him is a team of U.S. marshals led by Deputy Samuel Gerard, a determined detective who will not rest until Richard is captured. As Kimble leads the marshals through a series of intricate chases, he uncovers the secret behind his wife's death and struggles to expose the killer before he is recaptured, or killed.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/agOCps5NX3yAR48lSlHprbFEWWE.jpg",
-      "watched": false,
-      "movie_id": "5503",
-      "created_at": "Tue, Dec 8, 2020 11:40 AM",
-      "id": 117
     },
     {
       "title": "The Help",
@@ -281,10 +196,11 @@
       "title": "The Avengers",
       "overview": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
-      "watched": false,
+      "watched": true,
       "movie_id": "24428",
       "created_at": "Tue, Dec 8, 2020 11:43 AM",
-      "id": 123
+      "id": 123,
+      "modified_at": "Tue, Dec 8, 2020 6:55 PM"
     },
     {
       "title": "Avengers: Age of Ultron",
@@ -297,33 +213,6 @@
       "modified_at": "Tue, Dec 8, 2020 11:43 AM"
     },
     {
-      "title": "Iron Man",
-      "overview": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
-      "watched": false,
-      "movie_id": "1726",
-      "created_at": "Tue, Dec 8, 2020 11:43 AM",
-      "id": 125
-    },
-    {
-      "title": "Iron Man 2",
-      "overview": "With the world now aware of his dual life as the armored superhero Iron Man, billionaire inventor Tony Stark faces pressure from the government, the press and the public to share his technology with the military. Unwilling to let go of his invention, Stark, with Pepper Potts and James 'Rhodey' Rhodes at his side, must forge new alliances – and confront powerful enemies.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/6WBeq4fCfn7AN0o21W9qNcRF2l9.jpg",
-      "watched": false,
-      "movie_id": "10138",
-      "created_at": "Tue, Dec 8, 2020 11:43 AM",
-      "id": 126
-    },
-    {
-      "title": "Iron Man 3",
-      "overview": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/qhPtAc1TKbMPqNvcdXSOn9Bn7hZ.jpg",
-      "watched": false,
-      "movie_id": "68721",
-      "created_at": "Tue, Dec 8, 2020 11:43 AM",
-      "id": 127
-    },
-    {
       "title": "Slumdog Millionaire",
       "overview": "Jamal Malik is an impoverished Indian teen who becomes a contestant on the Hindi version of ‘Who Wants to Be a Millionaire?’ but, after he wins, he is suspected of cheating.",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/5WU6uusqJrLfiBaNs3KpF4o8Lnj.jpg",
@@ -331,6 +220,25 @@
       "movie_id": "12405",
       "created_at": "Tue, Dec 8, 2020 12:24 PM",
       "id": 128
+    },
+    {
+      "title": "(500) Days of Summer",
+      "overview": "Tom, greeting-card writer and hopeless romantic, is caught completely off-guard when his girlfriend, Summer, suddenly dumps him. He reflects on their 500 days together to try to figure out where their love affair went sour, and in doing so, Tom rediscovers his true passions in life.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/f9mbM0YMLpYemcWx6o2WeiYQLDP.jpg",
+      "watched": false,
+      "movie_id": "19913",
+      "created_at": "Tue, Dec 8, 2020 5:56 PM",
+      "id": 129
+    },
+    {
+      "title": "Elizabeth: The Golden Age",
+      "overview": "When Queen Elizabeth's reign is threatened by ruthless familial betrayal and Spain's invading army, she and her shrewd adviser must act to safeguard to the lives of her people.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/3bL6lLd6cyQ4JNT4ucqm4PICIVs.jpg",
+      "watched": true,
+      "movie_id": "4517",
+      "created_at": "Tue, Dec 8, 2020 6:19 PM",
+      "id": 133,
+      "modified_at": "Tue, Dec 8, 2020 6:19 PM"
     }
   ]
 }

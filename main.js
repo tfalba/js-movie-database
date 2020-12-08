@@ -4,11 +4,40 @@ const url = 'http://localhost:3000/movies'
 const searchForm = document.querySelector('#movie-form-2')
 const movieDisplay = document.querySelector('#display')
 const displayHolder = document.querySelector('#display-holder')
-const movieDisplayA = document.querySelector('#display-a')
+const movieDisplayA = document.querySelector('.display-a')
 const movieDisplay2 = document.querySelector('#display-2')
-const movieDisplayB = document.querySelector('#display-b')
+const movieDisplayB = document.querySelector('.display-b')
+const toWatchTab = document.querySelector('#to-watch-tab')
+const watchedTab = document.querySelector('#watched-tab')
 const posterPrefix = 'https://image.tmdb.org/t/p/w200'
 const dbPrefix = 'https://api.themoviedb.org/3/search/movie?api_key=cdea2b0b411e1e124dcdfb6985b46497&query='
+
+displayHolder.addEventListener('click', function (event) {
+  if (event.target.classList.contains('close-me')) {
+    displayHolder.innerHTML = ''
+    modal.innerText = ''
+    modal.style.display = 'none'
+  }
+})
+
+watchedTab.addEventListener('click', function () {
+  watchedTab.classList.toggle('dim-me')
+  movieDisplayB.classList.toggle('hide-me')
+  if (watchedTab.classList.contains('dim-me')) {
+    watchedTab.innerText = 'Watched Movies o'
+  } else {
+    watchedTab.innerText = 'Watched Movies x'
+  }
+})
+toWatchTab.addEventListener('click', function () {
+  toWatchTab.classList.toggle('dim-me')
+  movieDisplayA.classList.toggle('hide-me')
+  if (toWatchTab.classList.contains('dim-me')) {
+    toWatchTab.innerText = 'Movies to Watch o'
+  } else {
+    toWatchTab.innerText = 'Movies to Watch x'
+  }
+})
 
 searchForm.addEventListener('submit', function (event) {
   event.preventDefault()
@@ -38,6 +67,7 @@ movieDisplay2.addEventListener('click', function (event) {
   if (event.target.classList.contains('save')) {
     console.log('I clicked save')
     createMovie(event.target.parentElement)
+    event.target.parentElement.parentElement.classList.add('hide-me')
   }
 })
 
@@ -131,12 +161,11 @@ function renderMovie (movie) {
   movieMain.appendChild(movieTitle)
   moviePoster.innerHTML = `<img id ='${movie.movie_id}' class='poster' data-synopsis="${movie.overview}" data-poster="${movie.poster_path_url}" data-title="${movie.title}" src=${movie.poster_path_url}></img>`
 }
-
 function playTrailer (key) {
   // const videoDisplay = document.createElement('iframe')
   // displayHolder.appendChild(videoDisplay)
   console.log(`'https:/www.youtube.come/embed/${key}'`)
-  displayHolder.innerHTML = `<iframe width="680" height="350" src='https://www.youtube.com/embed/${key}'></iframe>`
+  displayHolder.innerHTML = `<p class='close-me'>X</p><iframe width="680" height="350" src='https://www.youtube.com/embed/${key}'></iframe>`
 }
 function renderTop (obj) {
   const movieCard = document.createElement('div')
@@ -210,12 +239,9 @@ movieDisplay.addEventListener('click', function (event) {
   if (event.target.classList.contains('movie-title')) {
     modal.style.display = 'block'
     modal.innerText = ''
-    console.log(event.target)
     renderModal(event.target)
   }
   if (event.target.classList.contains('poster')) {
-    console.log(event.target)
-    console.log(event.target.parentElement.nextElementSibling.children[0])
     // debugger
     getTrailer(event.target.id, event.target.parentElement.nextSibling.id)
     modal.style.display = 'block'
