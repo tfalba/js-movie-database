@@ -19,15 +19,6 @@
       "id": 84
     },
     {
-      "title": "Bridget Jones: The Edge of Reason",
-      "overview": "Bridget Jones is becoming uncomfortable in her relationship with Mark Darcy. Apart from discovering that he's a conservative voter, she has to deal with a new boss, a strange contractor and the worst vacation of her life.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/42v82AwTnhaL1JkNcQK8PRAh46P.jpg",
-      "watched": false,
-      "movie_id": "9801",
-      "created_at": "Mon, Dec 7, 2020 8:33 AM",
-      "id": 85
-    },
-    {
       "title": "Sixteen Candles",
       "overview": "A teenage girl deals with her parents forgetting her birthday and a crush on her high school's heartthrob.",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/duLMXNN6ZkuBt4edVMIfOI6tx.jpg",
@@ -101,10 +92,11 @@
       "title": "Running on Empty",
       "overview": "The Popes are a family who haven't been able to use their real identity for years. In the late sixties, the parents set a weapons lab afire in an effort to hinder the government's Vietnam war campaign. Ever since then, the Popes have been on the run with the authorities never far behind.",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/47qkFT7CruXUmCVCUg1iKxIoX2h.jpg",
-      "watched": false,
+      "watched": true,
       "movie_id": "18197",
       "created_at": "Mon, Dec 7, 2020 8:35 AM",
-      "id": 96
+      "id": 96,
+      "modified_at": "Mon, Dec 7, 2020 10:42 PM"
     },
     {
       "title": "Forgetting Sarah Marshall",
@@ -115,16 +107,6 @@
       "created_at": "Mon, Dec 7, 2020 8:35 AM",
       "id": 97,
       "modified_at": "Mon, Dec 7, 2020 6:35 PM"
-    },
-    {
-      "title": "Hot Rod",
-      "overview": "For Rod Kimball, performing stunts is a way of life, even though he is rather accident-prone. Poor Rod cannot even get any respect from his stepfather, Frank, who beats him up in weekly sparring matches. When Frank falls ill, Rod devises his most outrageous stunt yet to raise money for Frank's operation -- and then Rod will kick Frank's butt.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/jRkt03dXCVKnbvcQm3ygU1cjg9Y.jpg",
-      "watched": true,
-      "movie_id": "10074",
-      "created_at": "Mon, Dec 7, 2020 8:36 AM",
-      "id": 98,
-      "modified_at": "Mon, Dec 7, 2020 8:36 AM"
     },
     {
       "title": "Mission: Impossible",
@@ -149,10 +131,11 @@
       "title": "Moulin Rouge!",
       "overview": "A celebration of love and creative inspiration takes place in the infamous, gaudy and glamorous Parisian nightclub, at the cusp of the 20th century. A young poet, who is plunged into the heady world of Moulin Rouge, begins a passionate affair with the club's most notorious and beautiful star.",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/xhuQz2yKPlWvMvvnf2u9RVkAQx6.jpg",
-      "watched": false,
+      "watched": true,
       "movie_id": "824",
       "created_at": "Mon, Dec 7, 2020 1:28 PM",
-      "id": 102
+      "id": 102,
+      "modified_at": "Tue, Dec 8, 2020 8:26 AM"
     },
     {
       "title": "Requiem for a Dream",
@@ -164,23 +147,14 @@
       "id": 103
     },
     {
-      "title": "What Ever Happened to Baby Jane?",
-      "overview": "Two aging film actresses live as virtual recluses in an old Hollywood mansion. Jane Hudson, a successful child star, cares for her crippled sister Blanche, whose career in later years eclipsed that of Jane. Now the two live together, their relationship affected by simmering subconscious thoughts of mutual envy, hate and revenge.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/iL3NPfhVvZNW4HPBToRuk3DlXdV.jpg",
-      "watched": true,
-      "movie_id": "10242",
-      "created_at": "Mon, Dec 7, 2020 1:31 PM",
-      "id": 104,
-      "modified_at": "Mon, Dec 7, 2020 3:34 PM"
-    },
-    {
       "title": "Hamilton",
       "overview": "Presenting the tale of American founding father Alexander Hamilton, this filmed version of the original Broadway smash hit is the story of America then, told by America now.",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/h1B7tW0t399VDjAcWJh8m87469b.jpg",
-      "watched": false,
+      "watched": true,
       "movie_id": "556574",
       "created_at": "Mon, Dec 7, 2020 6:13 PM",
-      "id": 106
+      "id": 106,
+      "modified_at": "Tue, Dec 8, 2020 8:26 AM"
     },
     {
       "title": "Fight Club",
@@ -195,10 +169,11 @@
       "title": "The Nightmare Before Christmas",
       "overview": "Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/e4pZZR1SZByveyWczQBmiXJ0lXP.jpg",
-      "watched": false,
+      "watched": true,
       "movie_id": "9479",
       "created_at": "Mon, Dec 7, 2020 6:58 PM",
-      "id": 108
+      "id": 108,
+      "modified_at": "Tue, Dec 8, 2020 11:41 AM"
     },
     {
       "title": "Last Christmas",
@@ -213,10 +188,38 @@
       "title": "A Christmas Carol",
       "overview": "Miser Ebenezer Scrooge is awakened on Christmas Eve by spirits who reveal to him his own miserable existence, what opportunities he wasted in his youth, his current cruelties, and the dire fate that awaits him if he does not change his ways. Scrooge is faced with his own story of growing bitterness and meanness, and must decide what his own future will hold: death or redemption.",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/goHDZUnqZJ7FN4h48Qh6MzJNExl.jpg",
-      "watched": false,
+      "watched": true,
       "movie_id": "17979",
       "created_at": "Mon, Dec 7, 2020 6:58 PM",
-      "id": 110
+      "id": 110,
+      "modified_at": "Tue, Dec 8, 2020 11:40 AM"
+    },
+    {
+      "title": "Troy",
+      "overview": "In year 1250 B.C. during the late Bronze age, two emerging nations begin to clash. Paris, the Trojan prince, convinces Helen, Queen of Sparta, to leave her husband Menelaus, and sail with him back to Troy. After Menelaus finds out that his wife was taken by the Trojans, he asks his brother Agamemnom to help him get her back. Agamemnon sees this as an opportunity for power. So they set off with 1,000 ships holding 50,000 Greeks to Troy. With the help of Achilles, the Greeks are able to fight the never before defeated Trojans.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/kWj4RJzZeJGeyGA3DVGQiNkUjkt.jpg",
+      "watched": false,
+      "movie_id": "652",
+      "created_at": "Tue, Dec 8, 2020 8:32 AM",
+      "id": 113
+    },
+    {
+      "title": "Running on Empty",
+      "overview": "The Popes are a family who haven't been able to use their real identity for years. In the late sixties, the parents set a weapons lab afire in an effort to hinder the government's Vietnam war campaign. Ever since then, the Popes have been on the run with the authorities never far behind.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/47qkFT7CruXUmCVCUg1iKxIoX2h.jpg",
+      "watched": false,
+      "movie_id": "18197",
+      "created_at": "Tue, Dec 8, 2020 9:13 AM",
+      "id": 114
+    },
+    {
+      "title": "Angels & Demons",
+      "overview": "Harvard symbologist Robert Langdon is recruited by the Vatican to investigate the apparent return of the Illuminati - a secret, underground organization - after four cardinals are kidnapped on the night of the papal conclave.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/uRBapeuwV8yy4in4BkETHBDmWkH.jpg",
+      "watched": false,
+      "movie_id": "13448",
+      "created_at": "Tue, Dec 8, 2020 9:13 AM",
+      "id": 115
     },
     {
       "title": "Step Brothers",
@@ -224,8 +227,110 @@
       "poster_path_url": "https://image.tmdb.org/t/p/w200/tY2FpgzPVx92JrYveWt4bn3cMyD.jpg",
       "watched": false,
       "movie_id": "12133",
-      "created_at": "Mon, Dec 7, 2020 6:58 PM",
-      "id": 111
+      "created_at": "Tue, Dec 8, 2020 9:14 AM",
+      "id": 116
+    },
+    {
+      "title": "The Fugitive",
+      "overview": "Wrongfully convicted of murdering his wife and sentenced to death, Richard Kimble escapes from the law in an attempt to find her killer and clear his name. Pursuing him is a team of U.S. marshals led by Deputy Samuel Gerard, a determined detective who will not rest until Richard is captured. As Kimble leads the marshals through a series of intricate chases, he uncovers the secret behind his wife's death and struggles to expose the killer before he is recaptured, or killed.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/agOCps5NX3yAR48lSlHprbFEWWE.jpg",
+      "watched": false,
+      "movie_id": "5503",
+      "created_at": "Tue, Dec 8, 2020 11:40 AM",
+      "id": 117
+    },
+    {
+      "title": "The Help",
+      "overview": "Aibileen Clark is a middle-aged African-American maid who has spent her life raising white children and has recently lost her only son; Minny Jackson is an African-American maid who has often offended her employers despite her family's struggles with money and her desperate need for jobs; and Eugenia \"Skeeter\" Phelan is a young white woman who has recently moved back home after graduating college to find out her childhood maid has mysteriously disappeared. These three stories intertwine to explain how life in Jackson, Mississippi revolves around \"the help\"; yet they are always kept at a certain distance because of racial lines.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/7XLSwxpfpPoJyTdJVot6a42TS2V.jpg",
+      "watched": false,
+      "movie_id": "50014",
+      "created_at": "Tue, Dec 8, 2020 11:41 AM",
+      "id": 118
+    },
+    {
+      "title": "Talladega Nights: The Ballad of Ricky Bobby",
+      "overview": "The fastest man on four wheels, Ricky Bobby is one of the greatest drivers in NASCAR history. A big, hairy American winning machine, Ricky has everything a dimwitted daredevil could want, a luxurious mansion, a smokin' hot wife and all the fast food he can eat. But Ricky's turbo-charged lifestyle hits an unexpected speed bump when he's bested by flamboyant Euro-idiot Jean Girard and reduced to a fear-ridden wreck.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/3iCiTqsmJz1mO85AHzTiHNkRmb6.jpg",
+      "watched": false,
+      "movie_id": "9718",
+      "created_at": "Tue, Dec 8, 2020 11:42 AM",
+      "id": 119
+    },
+    {
+      "title": "Avengers: Endgame",
+      "overview": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+      "watched": true,
+      "movie_id": "299534",
+      "created_at": "Tue, Dec 8, 2020 11:43 AM",
+      "id": 121,
+      "modified_at": "Tue, Dec 8, 2020 11:43 AM"
+    },
+    {
+      "title": "Avengers: Infinity War",
+      "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+      "watched": true,
+      "movie_id": "299536",
+      "created_at": "Tue, Dec 8, 2020 11:43 AM",
+      "id": 122,
+      "modified_at": "Tue, Dec 8, 2020 11:43 AM"
+    },
+    {
+      "title": "The Avengers",
+      "overview": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+      "watched": false,
+      "movie_id": "24428",
+      "created_at": "Tue, Dec 8, 2020 11:43 AM",
+      "id": 123
+    },
+    {
+      "title": "Avengers: Age of Ultron",
+      "overview": "When Tony Stark tries to jumpstart a dormant peacekeeping program, things go awry and Earth’s Mightiest Heroes are put to the ultimate test as the fate of the planet hangs in the balance. As the villainous Ultron emerges, it is up to The Avengers to stop him from enacting his terrible plans, and soon uneasy alliances and unexpected action pave the way for an epic and unique global adventure.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/4ssDuvEDkSArWEdyBl2X5EHvYKU.jpg",
+      "watched": true,
+      "movie_id": "99861",
+      "created_at": "Tue, Dec 8, 2020 11:43 AM",
+      "id": 124,
+      "modified_at": "Tue, Dec 8, 2020 11:43 AM"
+    },
+    {
+      "title": "Iron Man",
+      "overview": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
+      "watched": false,
+      "movie_id": "1726",
+      "created_at": "Tue, Dec 8, 2020 11:43 AM",
+      "id": 125
+    },
+    {
+      "title": "Iron Man 2",
+      "overview": "With the world now aware of his dual life as the armored superhero Iron Man, billionaire inventor Tony Stark faces pressure from the government, the press and the public to share his technology with the military. Unwilling to let go of his invention, Stark, with Pepper Potts and James 'Rhodey' Rhodes at his side, must forge new alliances – and confront powerful enemies.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/6WBeq4fCfn7AN0o21W9qNcRF2l9.jpg",
+      "watched": false,
+      "movie_id": "10138",
+      "created_at": "Tue, Dec 8, 2020 11:43 AM",
+      "id": 126
+    },
+    {
+      "title": "Iron Man 3",
+      "overview": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/qhPtAc1TKbMPqNvcdXSOn9Bn7hZ.jpg",
+      "watched": false,
+      "movie_id": "68721",
+      "created_at": "Tue, Dec 8, 2020 11:43 AM",
+      "id": 127
+    },
+    {
+      "title": "Slumdog Millionaire",
+      "overview": "Jamal Malik is an impoverished Indian teen who becomes a contestant on the Hindi version of ‘Who Wants to Be a Millionaire?’ but, after he wins, he is suspected of cheating.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/5WU6uusqJrLfiBaNs3KpF4o8Lnj.jpg",
+      "watched": false,
+      "movie_id": "12405",
+      "created_at": "Tue, Dec 8, 2020 12:24 PM",
+      "id": 128
     }
   ]
 }

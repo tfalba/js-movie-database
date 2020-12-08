@@ -4,28 +4,41 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-family: futura;
   margin: 0 auto;
+  background-color: #0074d9d9;
+  background-color: #121213f2;
+  margin-left: 80px;
+  margin-right: 80px;
+  /* background-image: url("pexels-pixabay-33129.jpg"); */
 }
 .top-section {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin: 30px 60px 20px 10px;
+  margin: 30px 60px 60px 10px;
   flex-wrap: wrap;
   border-radius: 20px;
   font-size: 40px;
   padding-left: 20px;
   color: #0074d9;
   font-weight: 800;
+  /* background-color: white; */
 }
 .banner {
   display: flex;
 }
 .heading {
-  width: 420px;
-  margin-right: 80px;
+  width: 500px;
+  /* margin-right: 80px; */
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 13px;
+  font-size: 50px;
+}
+.banner-image {
+  width: 350px;
+  border-radius: 180px;
+  margin-left: 50px;
+
 }
 .sub-header {
   display: flex;
@@ -58,21 +71,32 @@ body {
 }
 .movie-overview {
   font-size: 14px;
+  font-family: arial;
 }
 .movie-title {
   font-size: 14px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
-  margin: 2px 0 1px 0;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  margin: 3px 0 3px 0;
+}
+.movie-title-top {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 5px;
+  color: #d2ccccfa;
 }
 i {
   padding: 2px;
+  padding-left: 4px;
+  font-size: 19px;
   color:  #0373d9;
 }
 .movie-synopsis {
-  font-size: 14px;
+  font-size: 19px;
   font-weight: 400;
   margin: 10px 0px 0px 10px;
+  line-height: 1.6em;
 }
 input {
   display: flex;
@@ -92,10 +116,17 @@ input {
   margin: 5px 0 15px 0;
 } */
 .search-card {
-  margin: 5px 0 15px 0;
-  width: 400px;
+  margin: 5px 3px 15px 3px;
+  width: 250px;
   border: 4px solid #0373d9;
   border-radius: 10px;
+  background-color: rgba(235, 231, 231, 0.933);
+  height: 350px;
+  overflow: scroll;
+  /* color: white; */
+}
+.search-card img {
+  width: 115px;
 }
 #display, .sub-header-div {
   display: flex;
@@ -104,6 +135,10 @@ input {
   font-size: 20px;
   margin-left: 30px;
 }
+/* .subheader-div {
+  margin-top: 40px;
+} */
+
 #display-a, #display-b, .sub-header {
   border: 4px solid #0373d9;
   border-radius: 10px;
@@ -114,6 +149,8 @@ input {
   flex-wrap: wrap;
   font-size: 21px;
   align-content: flex-start;
+  background-color: #efececf2;
+  background-color: #0277bd;
 }
 #display-b {
   border-radius: 10px 0 10px 10px;
@@ -133,10 +170,14 @@ input {
   flex-direction: column;
   flex-basis: 130px;
   margin-bottom: 5px;
-  margin-left: 8px;
+  margin-left: 6px;
+  margin-right: 6px;
 
-  border: solid 5px #ffb3005e;
+  border: solid 5px #1d1c1ca1;
   border-radius: 5px;
+  background-color: #121213f2;
+  color:  #f0e7e7d4;
+
 }
 .movie-card:hover {
   opacity: .8;
@@ -150,8 +191,11 @@ img {
 .top-card {
   display: flex;
   padding: 2px;
+  flex-wrap: wrap;
 }
-
+.fas .fa {
+  font-size: 18px;
+}
 
 /* The Modal (background) */
 .modal {
@@ -163,14 +207,14 @@ img {
   padding-top: 10px;
   left: 0;
   top: 0;
-  left: 500px;
-  top: 10px;
+  left: 1550px;
+  top: 30px;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   width: 50%;
-  width: 800px;
+  width: 510px;
   height: 10%;
-  height: 100px;
+  height: 350px;
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.466); /* Black w/ opacity */
