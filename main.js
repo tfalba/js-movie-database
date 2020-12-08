@@ -28,10 +28,10 @@ movieDisplay.addEventListener('click', function (event) {
   } else if (event.target.classList.contains('delete-button')) {
     deleteMovie(event.target.parentElement.parentElement.id)
   }
-  if (event.target.classList.contains('movie-title') || event.target.classList.contains('poster')) {
-    displayHolder.innerHTML = ''
-    renderTop(event.target)
-  }
+  // if (event.target.classList.contains('movie-title') || event.target.classList.contains('poster')) {
+  //   displayHolder.innerHTML = ''
+  //   renderTop(event.target)
+  // }
 })
 
 movieDisplay2.addEventListener('click', function (event) {
@@ -52,6 +52,7 @@ function searchMovies (searchTerm) {
       }
     })
 }
+
 function getMovies () {
   movieDisplayA.innerHTML = ''
   movieDisplayB.innerHTML = ''
@@ -107,23 +108,6 @@ function updateWatched (id, watchedStatus) {
     })
 }
 
-function updateNotWatched (id) {
-  fetch(`${url}/${id}`, {
-    method: 'PATCH',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      watched: false,
-      modified_at: moment().format('llll')
-    })
-  })
-    .then(res => res.json())
-    .then(data => {
-      getMovies()
-    })
-}
-
-getMovies()
-
 function renderMovie (movie) {
   const movieMain = document.createElement('div')
   movieMain.classList.add('movie-card')
@@ -154,7 +138,7 @@ function renderTop (obj) {
   moviePoster.classList.add('movie-poster')
   const movieOverview = document.createElement('div')
   movieOverview.classList.add('movie-synopsis')
-  
+
   const movieTitle = document.createElement('div')
   movieTitle.classList.add('movie-title')
   movieCard.appendChild(moviePoster)
@@ -162,15 +146,16 @@ function renderTop (obj) {
   movieOverview.innerHTML = obj.dataset.synopsis
   moviePoster.innerHTML = `<img class='poster-top' src=${obj.dataset.poster}></img>`
 }
+
 function showResults (movie, display) {
   const movieMain = document.createElement('div')
-  movieMain.classList.add('not-watched')
+  movieMain.classList.add('search-card')
   const movieTitle = document.createElement('div')
   const movieOverview = document.createElement('div')
   const moviePoster = document.createElement('div')
 
   movieTitle.classList.add('movie-title')
-  //set this id to id from database -- post if selected
+  // set this id to id from database -- post if selected
   movieTitle.id = movie.id
   movieOverview.classList.add('movie-overview')
   moviePoster.classList.add('movie-poster')
@@ -190,4 +175,59 @@ function showResults (movie, display) {
   movieTitle.innerHTML = `${movie.title}<i class='fas fa-share-square save'></i></i>`
   movieOverview.innerHTML = movie.overview
   moviePoster.innerHTML = `<img class='poster' id =${posterUrl} src=${posterUrl}></img>`
+}
+
+getMovies()
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/*                         Trying modal pop out setup from w3schools                                     */
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+// Get the modal
+const modal = document.getElementById('myModal')
+
+// Get the button that opens the modal
+const btn = document.getElementById('myBtn')
+
+// Get the <span> element that closes the modal
+const span = document.getElementsByClassName('close')[0]
+
+// When the user clicks the button, open the modal
+// btn.onclick = function() {
+//   modal.style.display = 'block'
+//   renderModal ()
+// }
+
+movieDisplay.addEventListener('click', function (event) {
+  if (event.target.classList.contains('movie-title') || event.target.classList.contains('poster')) {
+    modal.style.display = 'block'
+    modal.innerText = ''
+    renderModal(event.target)
+  }
+})
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function () {
+  modal.style.display = 'none'
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+  // if (event.target === modal) {
+  //   modal.style.display = 'none'
+  // }
+  if (event.target.classList.contains('poster') & modal.style.display === 'block') {
+    modal.style.display = 'none'
+  }
+}
+
+function renderModal (obj) {
+  const movieCard = document.createElement('div')
+  movieCard.classList.add('top-card')
+  modal.appendChild(movieCard)
+  const movieOverview = document.createElement('div')
+  movieOverview.classList.add('movie-synopsis')
+
+  movieCard.appendChild(movieOverview)
+  movieOverview.innerHTML = obj.dataset.synopsis
 }

@@ -38,15 +38,6 @@
       "modified_at": "Mon, Dec 7, 2020 8:36 AM"
     },
     {
-      "title": "Vertigo",
-      "overview": "A retired San Francisco detective suffering from acrophobia investigates the strange activities of an old friend's wife, all the while becoming dangerously obsessed with her.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg",
-      "watched": false,
-      "movie_id": "426",
-      "created_at": "Mon, Dec 7, 2020 8:34 AM",
-      "id": 89
-    },
-    {
       "title": "Good Morning, Vietnam",
       "overview": "Radio funny man Adrian Cronauer is sent to Vietnam to bring a little comedy back into the lives of the soldiers. After setting up shop, Cronauer delights the G.I.s but shocks his superior officer, Sergeant Major Dickerson, with his irreverent take on the war. While Dickerson attempts to censor Cronauer's broadcasts, Cronauer pursues a relationship with a Vietnamese girl named Trinh, who shows him the horrors of war first-hand.",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/y4zILnCypdVbiq9pyWrtmygZdWN.jpg",
@@ -90,10 +81,11 @@
       "title": "Titanic",
       "overview": "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic, 84 years later. A young Rose boards the ship with her mother and fiancé. Meanwhile, Jack Dawson and Fabrizio De Rossi win third-class tickets aboard the ship. Rose tells the whole story from Titanic's departure through to its death—on its first and last voyage—on April 15, 1912.",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
-      "watched": false,
+      "watched": true,
       "movie_id": "597",
       "created_at": "Mon, Dec 7, 2020 8:35 AM",
-      "id": 94
+      "id": 94,
+      "modified_at": "Mon, Dec 7, 2020 6:56 PM"
     },
     {
       "title": "Elizabeth",
@@ -118,11 +110,11 @@
       "title": "Forgetting Sarah Marshall",
       "overview": "When Sarah Marshall dumps aspiring musician Peter Bretter for rock star Aldous Snow, Peter's world comes crashing down. His best friend suggests that Peter should get away from everything and to fly off to Hawaii to escape all his problems. After arriving in Hawaii and meeting the beautiful Rachel Jansen, Peter is shocked to see not only Aldous Snow in Hawaii, but also Sarah Marshall.",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/j2KXt3gObsAaRj9RKpCp8tiosTk.jpg",
-      "watched": false,
+      "watched": true,
       "movie_id": "9870",
       "created_at": "Mon, Dec 7, 2020 8:35 AM",
       "id": 97,
-      "modified_at": "Mon, Dec 7, 2020 3:34 PM"
+      "modified_at": "Mon, Dec 7, 2020 6:35 PM"
     },
     {
       "title": "Hot Rod",
@@ -138,10 +130,11 @@
       "title": "Mission: Impossible",
       "overview": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no explanation, discovers that a mole has penetrated the CIA, he's surprised to learn that he's the No. 1 suspect. To clear his name, Hunt now must ferret out the real double agent and, in the process, even the score.",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/lirMXnE7NoVLDr3qeqf48fR1mk4.jpg",
-      "watched": false,
+      "watched": true,
       "movie_id": "954",
       "created_at": "Mon, Dec 7, 2020 1:23 PM",
-      "id": 100
+      "id": 100,
+      "modified_at": "Mon, Dec 7, 2020 6:35 PM"
     },
     {
       "title": "A Time to Kill",
@@ -181,13 +174,58 @@
       "modified_at": "Mon, Dec 7, 2020 3:34 PM"
     },
     {
-      "title": "Texas Chainsaw 3D",
-      "overview": "A young woman learns that she has inherited a Texas estate from her deceased grandmother. After embarking on a road trip with friends to uncover her roots, she finds she is the sole owner of a lavish, isolated Victorian mansion. But her newfound wealth comes at a price as she stumbles upon a horror that awaits her in the mansion’s dank cellars.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/dwIQ7WDCSiIcNdbferTcU7uI0KV.jpg",
+      "title": "Hamilton",
+      "overview": "Presenting the tale of American founding father Alexander Hamilton, this filmed version of the original Broadway smash hit is the story of America then, told by America now.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/h1B7tW0t399VDjAcWJh8m87469b.jpg",
       "watched": false,
-      "movie_id": "76617",
-      "created_at": "Mon, Dec 7, 2020 3:46 PM",
-      "id": 105
+      "movie_id": "556574",
+      "created_at": "Mon, Dec 7, 2020 6:13 PM",
+      "id": 106
+    },
+    {
+      "title": "Fight Club",
+      "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/bptfVGEQuv6vDTIMVCHjJ9Dz8PX.jpg",
+      "watched": false,
+      "movie_id": "550",
+      "created_at": "Mon, Dec 7, 2020 6:47 PM",
+      "id": 107
+    },
+    {
+      "title": "The Nightmare Before Christmas",
+      "overview": "Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/e4pZZR1SZByveyWczQBmiXJ0lXP.jpg",
+      "watched": false,
+      "movie_id": "9479",
+      "created_at": "Mon, Dec 7, 2020 6:58 PM",
+      "id": 108
+    },
+    {
+      "title": "Last Christmas",
+      "overview": "Kate is a young woman who has a habit of making bad decisions, and her last date with disaster occurs after she accepts work as Santa's elf for a department store. However, after she meets Tom there, her life takes a new turn.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/mDeES2L2lhW8rJSyAKZMuKqZM7e.jpg",
+      "watched": false,
+      "movie_id": "549053",
+      "created_at": "Mon, Dec 7, 2020 6:58 PM",
+      "id": 109
+    },
+    {
+      "title": "A Christmas Carol",
+      "overview": "Miser Ebenezer Scrooge is awakened on Christmas Eve by spirits who reveal to him his own miserable existence, what opportunities he wasted in his youth, his current cruelties, and the dire fate that awaits him if he does not change his ways. Scrooge is faced with his own story of growing bitterness and meanness, and must decide what his own future will hold: death or redemption.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/goHDZUnqZJ7FN4h48Qh6MzJNExl.jpg",
+      "watched": false,
+      "movie_id": "17979",
+      "created_at": "Mon, Dec 7, 2020 6:58 PM",
+      "id": 110
+    },
+    {
+      "title": "Step Brothers",
+      "overview": "Brennan Huff and Dale Doback might be grown men. But that doesn't stop them from living at home and turning into jealous, competitive stepbrothers when their single parents marry. Brennan's constant competition with Dale strains his mom's marriage to Dale's dad, leaving everyone to wonder whether they'll ever see eye to eye.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/tY2FpgzPVx92JrYveWt4bn3cMyD.jpg",
+      "watched": false,
+      "movie_id": "12133",
+      "created_at": "Mon, Dec 7, 2020 6:58 PM",
+      "id": 111
     }
   ]
 }
