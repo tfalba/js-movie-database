@@ -33,11 +33,11 @@
       "title": "Amy Schumer: Growing",
       "overview": "Amy Schumer's live stand-up set performed in Chicago where she jokes about marriage, pregnancy and personal growth.",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/cNqnCtWPt9m13xS9hxBRnzb5Hpx.jpg",
-      "watched": true,
+      "watched": false,
       "movie_id": "581958",
       "created_at": "Mon, Dec 7, 2020 8:35 AM",
       "id": 92,
-      "modified_at": "Mon, Dec 7, 2020 1:30 PM"
+      "modified_at": "Fri, Dec 11, 2020 4:39 PM"
     },
     {
       "title": "Titanic",
@@ -47,7 +47,7 @@
       "movie_id": "597",
       "created_at": "Mon, Dec 7, 2020 8:35 AM",
       "id": 94,
-      "modified_at": "Mon, Dec 7, 2020 6:56 PM"
+      "modified_at": "Sun, Dec 13, 2020 3:37 PM"
     },
     {
       "title": "Mission: Impossible",
@@ -101,11 +101,11 @@
       "title": "The Nightmare Before Christmas",
       "overview": "Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/e4pZZR1SZByveyWczQBmiXJ0lXP.jpg",
-      "watched": true,
+      "watched": false,
       "movie_id": "9479",
       "created_at": "Mon, Dec 7, 2020 6:58 PM",
       "id": 108,
-      "modified_at": "Tue, Dec 8, 2020 11:41 AM"
+      "modified_at": "Fri, Dec 11, 2020 4:39 PM"
     },
     {
       "title": "Last Christmas",
@@ -167,10 +167,11 @@
       "title": "Talladega Nights: The Ballad of Ricky Bobby",
       "overview": "The fastest man on four wheels, Ricky Bobby is one of the greatest drivers in NASCAR history. A big, hairy American winning machine, Ricky has everything a dimwitted daredevil could want, a luxurious mansion, a smokin' hot wife and all the fast food he can eat. But Ricky's turbo-charged lifestyle hits an unexpected speed bump when he's bested by flamboyant Euro-idiot Jean Girard and reduced to a fear-ridden wreck.",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/3iCiTqsmJz1mO85AHzTiHNkRmb6.jpg",
-      "watched": false,
+      "watched": true,
       "movie_id": "9718",
       "created_at": "Tue, Dec 8, 2020 11:42 AM",
-      "id": 119
+      "id": 119,
+      "modified_at": "Fri, Dec 11, 2020 4:37 PM"
     },
     {
       "title": "Avengers: Endgame",
@@ -239,6 +240,25 @@
       "created_at": "Tue, Dec 8, 2020 6:19 PM",
       "id": 133,
       "modified_at": "Tue, Dec 8, 2020 6:19 PM"
+    },
+    {
+      "title": "Borat Subsequent Moviefilm",
+      "overview": "14 years after making a film about his journey across the USA, Borat risks life and limb when he returns to the United States with his young daughter, and reveals more about the culture, the COVID-19 pandemic, and the political elections.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/kwh9dYvZLn7yJ9nfU5sPj2h9O7l.jpg",
+      "watched": true,
+      "movie_id": "740985",
+      "created_at": "Fri, Dec 11, 2020 4:38 PM",
+      "id": 134,
+      "modified_at": "Fri, Dec 11, 2020 4:38 PM"
+    },
+    {
+      "title": "undefined",
+      "overview": "undefined",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200undefined",
+      "watched": false,
+      "movie_id": "1555781",
+      "created_at": "Mon, Dec 14, 2020 7:41 AM",
+      "id": 135
     }
   ]
 }

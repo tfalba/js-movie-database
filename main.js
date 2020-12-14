@@ -2,6 +2,7 @@
 
 const url = 'http://localhost:3000/movies'
 const searchForm = document.querySelector('#movie-form-2')
+const actorSearchForm = document.querySelector('#movie-form-3')
 const movieDisplay = document.querySelector('#display')
 const displayHolder = document.querySelector('#display-holder')
 const movieDisplayA = document.querySelector('.display-a')
@@ -11,7 +12,9 @@ const toWatchTab = document.querySelector('#to-watch-tab')
 const watchedTab = document.querySelector('#watched-tab')
 const posterPrefix = 'https://image.tmdb.org/t/p/w200'
 const dbPrefix = 'https://api.themoviedb.org/3/search/movie?api_key=cdea2b0b411e1e124dcdfb6985b46497&query='
+const dbActorPrefix = 'https://api.themoviedb.org/3/search/person?api_key=cdea2b0b411e1e124dcdfb6985b46497&query='
 
+// https://image.tmdb.org/t/p/w200/pahtuRDpaopvO6rH1RYS2omrO8L.jpg
 displayHolder.addEventListener('click', function (event) {
   if (event.target.classList.contains('close-me')) {
     displayHolder.innerHTML = ''
@@ -46,6 +49,14 @@ searchForm.addEventListener('submit', function (event) {
   searchMovies(searchTerm)
 })
 
+actorSearchForm.addEventListener('submit', function (event) {
+  event.preventDefault()
+  const searchTerm = document.getElementById('actor-search').value
+  console.log(searchTerm)
+  // searchMovies(searchTerm)
+  searchActors(searchTerm)
+})
+
 movieDisplay.addEventListener('click', function (event) {
   event.preventDefault()
   if (event.target.classList.contains('move')) {
@@ -78,7 +89,25 @@ function searchMovies (searchTerm) {
     .then(res => res.json())
     .then(data => {
       for (const movie of data.results) {
-        showResults(movie, movieDisplay2)
+        if (movie.poster_path !== null) {
+          showResults(movie, movieDisplay2)
+        }
+      }
+    })
+}
+
+function searchActors (searchTerm) {
+  console.log('running searchMovies')
+  movieDisplay2.innerHTML = ''
+  // change the fetch url to be the actor prefix
+  fetch(dbActorPrefix + encodeURI(searchTerm) + '&append_to_response=known_for')
+    .then(res => res.json())
+    .then(data => {
+      // check this out on insomnia to see how data.results is stored
+      for (const actor of data.results) {
+        if (actor.profile_path !== null) {
+          showActorResults(actor, movieDisplay2)
+        }
       }
     })
 }
@@ -214,6 +243,38 @@ function showResults (movie, display) {
   moviePoster.innerHTML = `<img class='poster' id =${posterUrl} src=${posterUrl}></img>`
 }
 
+function showActorResults (actor, display) {
+  const movieMain = document.createElement('div')
+  movieMain.classList.add('search-card')
+  const actorName = document.createElement('div')
+  // const movieOverview = document.createElement('div')
+  const moviePoster = document.createElement('div')
+
+  actorName.classList.add('actor-name')
+  // set this id to id from database -- post if selected
+  actorName.id = actor.id
+  // movieOverview.classList.add('movie-overview')
+  // moviePoster.classList.add('movie-poster')
+
+  let posterUrl = ''
+  if (actor.profile_path === null) {
+    posterUrl = '/pexels-skitterphoto-390089.jpg'
+  } else {
+    posterUrl = posterPrefix + actor.profile_path
+  }
+
+  display.appendChild(movieMain)
+  movieMain.appendChild(moviePoster)
+  movieMain.appendChild(actorName)
+  // movieMain.appendChild(movieOverview)
+
+  actorName.innerHTML = `${actor.name}<i class='fas fa-share-square save'></i></i>`
+  // movieOverview.innerHTML = movie.overview
+  moviePoster.innerHTML = `<img class='poster' id =${posterUrl} src=${posterUrl}></img>`
+}
+
+//   //this function basically same as showResults but input depending on API documentation
+// }
 getMovies()
 
 /* ------------------------------------------------------------------------------------------------------------------ */
@@ -247,7 +308,6 @@ movieDisplay.addEventListener('click', function (event) {
     modal.style.display = 'block'
     modal.innerText = ''
     renderModal(event.target.parentElement.nextElementSibling.children[0])
-
   }
 })
 
@@ -277,7 +337,6 @@ function renderModal (obj) {
   movieCard.appendChild(movieTitle)
   movieTitle.innerHTML = obj.dataset.title
 
-
   movieCard.appendChild(movieOverview)
   movieOverview.innerHTML = obj.dataset.synopsis
 }
@@ -287,7 +346,7 @@ function renderModal (obj) {
 // run a fetch request to get the video link to play trailer and save that in object with a patch
 // request
 
-function getTrailer(searchId, localId) {
+function getTrailer (searchId, localId) {
   const urlVideo = `https://api.themoviedb.org/3/movie/${searchId}?api_key=cdea2b0b411e1e124dcdfb6985b46497&append_to_response=videos`
   console.log(urlVideo)
   fetch(urlVideo)
@@ -305,6 +364,7 @@ function getTrailer(searchId, localId) {
       // debugger
       // saveTrailer(data.videos.results[0].key, localId)
       // use the above to save when first gets created -- for now can just call to renderTop and display video
+      // or incorporate same into initial nested fetch request using saveTrailer function
       playTrailer(data.videos.results[0].key)
     })
 }
