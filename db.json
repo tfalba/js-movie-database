@@ -30,16 +30,6 @@
       "modified_at": "Mon, Dec 7, 2020 8:34 AM"
     },
     {
-      "title": "Amy Schumer: Growing",
-      "overview": "Amy Schumer's live stand-up set performed in Chicago where she jokes about marriage, pregnancy and personal growth.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/cNqnCtWPt9m13xS9hxBRnzb5Hpx.jpg",
-      "watched": false,
-      "movie_id": "581958",
-      "created_at": "Mon, Dec 7, 2020 8:35 AM",
-      "id": 92,
-      "modified_at": "Fri, Dec 11, 2020 4:39 PM"
-    },
-    {
       "title": "Titanic",
       "overview": "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic, 84 years later. A young Rose boards the ship with her mother and fiancé. Meanwhile, Jack Dawson and Fabrizio De Rossi win third-class tickets aboard the ship. Rose tells the whole story from Titanic's departure through to its death—on its first and last voyage—on April 15, 1912.",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
@@ -96,25 +86,6 @@
       "movie_id": "550",
       "created_at": "Mon, Dec 7, 2020 6:47 PM",
       "id": 107
-    },
-    {
-      "title": "The Nightmare Before Christmas",
-      "overview": "Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/e4pZZR1SZByveyWczQBmiXJ0lXP.jpg",
-      "watched": false,
-      "movie_id": "9479",
-      "created_at": "Mon, Dec 7, 2020 6:58 PM",
-      "id": 108,
-      "modified_at": "Fri, Dec 11, 2020 4:39 PM"
-    },
-    {
-      "title": "Last Christmas",
-      "overview": "Kate is a young woman who has a habit of making bad decisions, and her last date with disaster occurs after she accepts work as Santa's elf for a department store. However, after she meets Tom there, her life takes a new turn.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/mDeES2L2lhW8rJSyAKZMuKqZM7e.jpg",
-      "watched": false,
-      "movie_id": "549053",
-      "created_at": "Mon, Dec 7, 2020 6:58 PM",
-      "id": 109
     },
     {
       "title": "A Christmas Carol",
@@ -184,36 +155,6 @@
       "modified_at": "Tue, Dec 8, 2020 11:43 AM"
     },
     {
-      "title": "Avengers: Infinity War",
-      "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
-      "watched": true,
-      "movie_id": "299536",
-      "created_at": "Tue, Dec 8, 2020 11:43 AM",
-      "id": 122,
-      "modified_at": "Tue, Dec 8, 2020 11:43 AM"
-    },
-    {
-      "title": "The Avengers",
-      "overview": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
-      "watched": true,
-      "movie_id": "24428",
-      "created_at": "Tue, Dec 8, 2020 11:43 AM",
-      "id": 123,
-      "modified_at": "Tue, Dec 8, 2020 6:55 PM"
-    },
-    {
-      "title": "Avengers: Age of Ultron",
-      "overview": "When Tony Stark tries to jumpstart a dormant peacekeeping program, things go awry and Earth’s Mightiest Heroes are put to the ultimate test as the fate of the planet hangs in the balance. As the villainous Ultron emerges, it is up to The Avengers to stop him from enacting his terrible plans, and soon uneasy alliances and unexpected action pave the way for an epic and unique global adventure.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/4ssDuvEDkSArWEdyBl2X5EHvYKU.jpg",
-      "watched": true,
-      "movie_id": "99861",
-      "created_at": "Tue, Dec 8, 2020 11:43 AM",
-      "id": 124,
-      "modified_at": "Tue, Dec 8, 2020 11:43 AM"
-    },
-    {
       "title": "Slumdog Millionaire",
       "overview": "Jamal Malik is an impoverished Indian teen who becomes a contestant on the Hindi version of ‘Who Wants to Be a Millionaire?’ but, after he wins, he is suspected of cheating.",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/5WU6uusqJrLfiBaNs3KpF4o8Lnj.jpg",
@@ -242,23 +183,32 @@
       "modified_at": "Tue, Dec 8, 2020 6:19 PM"
     },
     {
-      "title": "Borat Subsequent Moviefilm",
-      "overview": "14 years after making a film about his journey across the USA, Borat risks life and limb when he returns to the United States with his young daughter, and reveals more about the culture, the COVID-19 pandemic, and the political elections.",
-      "poster_path_url": "https://image.tmdb.org/t/p/w200/kwh9dYvZLn7yJ9nfU5sPj2h9O7l.jpg",
-      "watched": true,
-      "movie_id": "740985",
-      "created_at": "Fri, Dec 11, 2020 4:38 PM",
-      "id": 134,
-      "modified_at": "Fri, Dec 11, 2020 4:38 PM"
-    },
-    {
       "title": "Groundhog Day",
       "overview": "A narcissistic T.V. weatherman, along with his attractive-but-distant producer and mawkish cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over and over.",
       "poster_path_url": "https://image.tmdb.org/t/p/w200/gCgt1WARPZaXnq523ySQEUKinCs.jpg",
-      "watched": false,
+      "watched": true,
       "movie_id": "137",
       "created_at": "Mon, Jan 11, 2021 7:05 PM",
-      "id": 135
+      "id": 135,
+      "modified_at": "Thu, Jan 14, 2021 8:35 PM"
+    },
+    {
+      "title": "The Matrix",
+      "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+      "watched": false,
+      "movie_id": "603",
+      "created_at": "Thu, Jan 14, 2021 8:36 PM",
+      "id": 136
+    },
+    {
+      "title": "Forrest Gump",
+      "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
+      "poster_path_url": "https://image.tmdb.org/t/p/w200/h5J4W4veyxMXDMjeNxZI46TsHOb.jpg",
+      "watched": false,
+      "movie_id": "13",
+      "created_at": "Thu, Jan 14, 2021 8:55 PM",
+      "id": 137
     }
   ]
 }

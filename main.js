@@ -190,6 +190,7 @@ function renderMovie (movie) {
   movieMain.appendChild(movieTitle)
   moviePoster.innerHTML = `<img id ='${movie.movie_id}' class='poster' data-synopsis="${movie.overview}" data-poster="${movie.poster_path_url}" data-title="${movie.title}" src=${movie.poster_path_url}></img>`
 }
+
 function playTrailer (key) {
   // const videoDisplay = document.createElement('iframe')
   // displayHolder.appendChild(videoDisplay)
